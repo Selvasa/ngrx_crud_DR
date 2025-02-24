@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+// Padding and Margin classes
+@for $i from 0 through 100 {
+    .pl-#{$i} { padding-left: #{$i}px; }
+    .pr-#{$i} { padding-right: #{$i}px; }
+    .pb-#{$i} { padding-bottom: #{$i}px; }
+    .pt-#{$i} { padding-top: #{$i}px; }
+    .px-#{$i} { padding-left: #{$i}px; padding-right: #{$i}px; }
+    .py-#{$i} { padding-top: #{$i}px; padding-bottom: #{$i}px; }
+  
+    .ml-#{$i} { margin-left: #{$i}px; }
+    .mr-#{$i} { margin-right: #{$i}px; }
+    .mt-#{$i} { margin-top: #{$i}px; }
+    .mb-#{$i} { margin-bottom: #{$i}px; }
+    .mx-#{$i} { margin-left: #{$i}px; margin-right: #{$i}px; }
+    .my-#{$i} { margin-top: #{$i}px; margin-bottom: #{$i}px; }
+  }
+  
+  // Font-size classes
+  @for $i from 10 through 32 {
+    .fs-#{$i} { font-size: #{$i}px; }
+  }
+  

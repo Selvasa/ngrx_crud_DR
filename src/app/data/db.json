@@ -1,0 +1,60 @@
+{
+  "employee": [
+    {
+      "id": "02",
+      "name": "selvan",
+      "doj": "2025-02-22T14:20:34.990Z",
+      "role": "lead",
+      "salary": "80000"
+    },
+    {
+      "id": "04",
+      "name": "vijay Kumar",
+      "doj": "2024-06-19T18:30:00.000Z",
+      "role": "lead",
+      "salary": "50000"
+    },
+    {
+      "id": "05",
+      "name": "Keerthivasan",
+      "doj": "2024-11-19T18:30:00.000Z",
+      "role": "manager",
+      "salary": "70000"
+    },
+    {
+      "id": "07",
+      "name": "ajai",
+      "doj": "2024-08-27T18:30:00.000Z",
+      "role": "manager",
+      "salary": "70000"
+    },
+    {
+      "id": "08",
+      "name": "sakthi",
+      "doj": "2023-10-16T18:30:00.000Z",
+      "role": "operator",
+      "salary": "60000"
+    },
+    {
+      "id": "09",
+      "name": "sunil",
+      "doj": "2024-04-08T18:30:00.000Z",
+      "role": "operator",
+      "salary": "40000"
+    },
+    {
+      "id": "10",
+      "name": "swetha MJ",
+      "doj": "2024-07-25T18:30:00.000Z",
+      "role": "lead",
+      "salary": "80000"
+    },
+    {
+      "id": "01",
+      "name": "kevin11",
+      "doj": "2024-09-18T18:30:00.000Z",
+      "role": "lead",
+      "salary": "70000"
+    }
+  ]
+}

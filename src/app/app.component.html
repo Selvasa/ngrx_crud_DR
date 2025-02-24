@@ -1,0 +1,16 @@
+<header class="glass-header mb-20">
+  <div class="logo">MyApp</div>
+  <nav [class.open]="isMenuOpen()">
+    <a RouterLink="/employee">Employee</a>
+    <a RouterLink="/">About</a>
+    <a RouterLink="/">Services</a>
+    <a RouterLink="/">Contact</a>
+  </nav>
+  <div class="actions">
+    <button (click)="toggleDarkMode()">Darken</button>
+    <button class="menu-toggle" (click)="toggleMenu()">Open me</button>
+  </div>
+</header>
+
+
+<router-outlet/>
